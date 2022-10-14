@@ -15,7 +15,7 @@ int main(void)
 	d = 'A';
 	while
 		(c <= 'z') {
-			putcher(c);
+			putchar(c);
 			c++;
 		}
 	while
@@ -23,6 +23,6 @@ int main(void)
 			putchar(d);
 			d++;
 		}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }	
